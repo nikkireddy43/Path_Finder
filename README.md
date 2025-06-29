@@ -1,43 +1,69 @@
-Installation
 
+````markdown
+# Geographic Path Finder 🌍
 
+An interactive web application for visualizing pathfinding algorithms on real-world road networks using OpenStreetMap data.
 
+---
 
+## 🚀 Features
 
-Clone repository to your local machine
+- Visualizes multiple search algorithms on a map
+- Interactive UI with animation controls
+- Real-world map data using OpenStreetMap
+- Reward system and exploration metrics
 
+---
 
+## 🔍 Available Algorithms
 
-Open terminal and cd into repository folder
+- 🧭 A* (A-Star) Algorithm  
+- ⚡ Greedy Best-First Search  
+- 📍 Dijkstra’s Algorithm  
+- 🔁 Bidirectional Search
 
+---
 
+## 🛠️ Installation
 
-Run npm install
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/nikkireddy43/Path_Finder.git
+   cd Path_Finder
+````
 
+2. **Install dependencies**
 
+   ```bash
+   npm install
+   ```
 
-Run vite or npm run dev
+3. **Run the development server**
 
-Available algorithms
+   ```bash
+   npm run dev
+   ```
 
+   Or use:
 
+   ```bash
+   vite
+   ```
 
+4. Open `http://localhost:5173` in your browser
 
+---
 
-A* algorithm
+## 🧱 Tech Stack
 
+* **React** (UI framework)
+* **Vite** (build tool)
+* **JavaScript**, **CSS**
+* **OpenStreetMap + Overpass API** (map and road data)
 
+---
 
-Greedy algorithm
+## 📄 License
 
+This project is licensed under the [MIT License](LICENSE).
 
-
-Dijkstra's algorithm
-
-
-
-Bidirectional Search algorithm
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
